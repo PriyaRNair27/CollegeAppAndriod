@@ -1,0 +1,89 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:text="FACULTY NAME"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/facultyname"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="DEPARTMENT"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/department"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="QUALIFICATION"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/qualification"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="MOBLIE NUMBER"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/mobilenumber"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="EMAIL"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/email"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:textColor="@color/texttype"
+            android:id="@+id/addfaculty"
+            android:text="SUBMIT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:textColor="@color/texttype"
+            android:id="@+id/backtodashboard"
+            android:text="BACK TO DASHBOARD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

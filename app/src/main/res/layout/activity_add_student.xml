@@ -1,0 +1,78 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/login_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:text="NAME"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/name"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="ROLL NUMBER"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/rollnumber"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="ADMISSION NUMBER"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/adimissionnumber"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="COLLEGE"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/college"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:textColor="@color/texttype"
+        android:background="@color/button"
+        android:text="SUBMIT"
+        android:id="@+id/addstudent"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@color/button"
+        android:textColor="@color/texttype"
+        android:text="BACK TO DASHBOARD"
+        android:id="@+id/backtodashboard"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
